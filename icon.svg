@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  
+  <!-- Subtle circular border -->
+  <circle cx="256" cy="256" r="216" stroke="rgba(255,255,255,0.08)" stroke-width="4" fill="none"/>
+  
+  <!-- Dumbbell / Weight iconography -->
+  <g transform="translate(256, 256) rotate(-45) translate(-256, -256)">
+    <!-- Central Bar -->
+    <rect x="156" y="240" width="200" height="32" rx="16" fill="#e2e8f0"/>
+    <rect x="236" y="238" width="40" height="36" rx="6" fill="#94a3b8"/>
+    
+    <!-- Left Inner Weight Plate -->
+    <rect x="124" y="176" width="28" height="160" rx="14" fill="url(#primary)"/>
+    <!-- Left Outer Weight Plate -->
+    <rect x="88" y="200" width="24" height="112" rx="12" fill="url(#primary)"/>
+    <!-- Left Collar -->
+    <rect x="152" y="226" width="12" height="60" rx="6" fill="#64748b"/>
+    
+    <!-- Right Inner Weight Plate -->
+    <rect x="360" y="176" width="28" height="160" rx="14" fill="url(#primary)"/>
+    <!-- Right Outer Weight Plate -->
+    <rect x="400" y="200" width="24" height="112" rx="12" fill="url(#primary)"/>
+    <!-- Right Collar -->
+    <rect x="348" y="226" width="12" height="60" rx="6" fill="#64748b"/>
+    
+    <!-- Power Pulse / Spark Accent -->
+    <circle cx="256" cy="256" r="14" fill="url(#accent)"/>
+  </g>
+  
+  <!-- Modern Monogram "FB" badge -->
+  <text x="256" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#38bdf8" text-anchor="middle" letter-spacing="4">FULL BODY</text>
+</svg>
