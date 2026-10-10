@@ -10,13 +10,13 @@ import {
   DEFAULT_SETTINGS,
   getNextWorkoutType,
   storage,
-} from './services/storage';
-import { Navbar, NavTab } from './components/Navbar';
-import { DashboardView } from './views/DashboardView';
-import { WorkoutView } from './views/WorkoutView';
-import { ExercisesView } from './views/ExercisesView';
-import { AssessmentsView } from './views/AssessmentsView';
-import { SettingsView } from './views/SettingsView';
+} from './storage';
+import { Navbar, NavTab } from './Navbar';
+import { DashboardView } from './DashboardView';
+import { WorkoutView } from './WorkoutView';
+import { ExercisesView } from './ExercisesView';
+import { AssessmentsView } from './AssessmentsView';
+import { SettingsView } from './SettingsView';
 import { Play, Dumbbell, Flame } from 'lucide-react';
 
 export default function App() {

@@ -18,8 +18,8 @@ import {
   BodyAssessment,
   WorkoutSession,
   WorkoutType,
-} from '../types';
-import { getNextWorkoutType, getPeriodizationRules } from '../services/storage';
+} from './types';
+import { getNextWorkoutType, getPeriodizationRules } from './storage';
 
 interface DashboardViewProps {
   settings: AppProgramSettings;

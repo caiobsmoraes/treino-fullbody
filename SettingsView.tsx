@@ -14,8 +14,8 @@ import {
   Shield,
   HelpCircle,
 } from 'lucide-react';
-import { AppProgramSettings } from '../types';
-import { storage } from '../services/storage';
+import { AppProgramSettings } from './types';
+import { storage } from './storage';
 
 interface SettingsViewProps {
   settings: AppProgramSettings;

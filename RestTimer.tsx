@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Timer, Plus, Minus, X, BellRing, Play, Pause, ChevronUp, ChevronDown } from 'lucide-react';
-import { soundService } from '../services/sound';
+import { soundService } from './sound';
 
 interface RestTimerProps {
   initialSeconds: number;

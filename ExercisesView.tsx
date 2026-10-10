@@ -12,9 +12,9 @@ import {
   Calendar,
   X,
 } from 'lucide-react';
-import { ExerciseDefinition, WorkoutSession, WorkoutType } from '../types';
-import { getYouTubeEmbedUrl } from '../services/storage';
-import { ChondromalaciaAlert } from '../components/ChondromalaciaAlert';
+import { ExerciseDefinition, WorkoutSession, WorkoutType } from './types';
+import { getYouTubeEmbedUrl } from './storage';
+import { ChondromalaciaAlert } from './ChondromalaciaAlert';
 
 interface ExercisesViewProps {
   exercises: ExerciseDefinition[];

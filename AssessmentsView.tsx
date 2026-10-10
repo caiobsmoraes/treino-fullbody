@@ -17,7 +17,7 @@ import {
   Image as ImageIcon,
   Check,
 } from 'lucide-react';
-import { AppProgramSettings, BodyAssessment } from '../types';
+import { AppProgramSettings, BodyAssessment } from './types';
 
 interface AssessmentsViewProps {
   assessments: BodyAssessment[];
