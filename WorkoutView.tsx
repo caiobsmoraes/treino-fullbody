@@ -27,11 +27,11 @@ import {
   SetEntry,
   WorkoutSession,
   WorkoutType,
-} from '../types';
-import { ChondromalaciaAlert } from '../components/ChondromalaciaAlert';
-import { RestTimer } from '../components/RestTimer';
-import { soundService } from '../services/sound';
-import { getPeriodizationRules, getYouTubeEmbedUrl } from '../services/storage';
+} from './types';
+import { ChondromalaciaAlert } from './ChondromalaciaAlert';
+import { RestTimer } from './RestTimer';
+import { soundService } from './sound';
+import { getPeriodizationRules, getYouTubeEmbedUrl } from './storage';
 
 interface WorkoutViewProps {
   workoutType: WorkoutType;

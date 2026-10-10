@@ -8,7 +8,7 @@ import {
   WifiOff,
 } from 'lucide-react';
 import { PWAInstallButton } from './PWAInstallButton';
-import { useOnlineStatus } from '../hooks/useOnlineStatus';
+import { useOnlineStatus } from './useOnlineStatus';
 
 export type NavTab = 'dashboard' | 'workout' | 'exercises' | 'assessments' | 'settings';
 

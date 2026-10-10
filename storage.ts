@@ -5,7 +5,7 @@ import {
   ExerciseDefinition,
   WorkoutSession,
   WorkoutType,
-} from '../types';
+} from './types';
 
 const DB_NAME = 'treino_fullbody_db';
 const DB_VERSION = 1;
